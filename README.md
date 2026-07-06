@@ -4,13 +4,6 @@ A zero-cost prototype that tells you whether a substance amount you read off a
 food, water, or product label is **Safe / Caution / Harmful**, based on public
 health reference limits (WHO, FSSAI, FDA guidelines).
 
-Built for **Challenge Track 1: AI-Powered Decision Intelligence Platform**.
-
-## Why zero cost
-This prototype uses a **hardcoded reference database** of known safe limits
-(`thresholds.py`) — no AI API calls, no external services. It runs entirely
-on Streamlit's own logic, so it costs nothing to run locally and, if deployed,
-comfortably fits inside Cloud Run's free tier (2 million requests/month free).
 
 ## What it does
 1. You read a value off a label (e.g. "Sodium: 850mg" or "Coliform: 2 CFU/100ml").
